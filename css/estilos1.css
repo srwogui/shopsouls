@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+   background: url(../img/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+header{width: 100%;
+    height: 600px;
+    background: black;
+    background-image:url(../img/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    nav{
+        text-align: right;
+        padding: 30px 50px 0 0;
+    }
+    nav > a{ 
+        color: yellow;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    nav > a:hover{ 
+        color:white;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+.contenedor{
+    width: 100%;
+    padding: 5px;
+}
+.formulario{
+    background: white;
+    margin-top: 100px;
+    padding: 3px;
+
+}
+h1{
+    color:yellow;
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    background: white;
+    color:black;
+    text-align: center;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: yellow;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: black;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color:yellow;
+    font-weight: 600;
+}
+.link:hover{
+     color: black;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
