@@ -1,9 +1,10 @@
 
 
 body{
+    margin: 0;
+
     background:black;
 }
-
 .contenedor{
     padding: 60px 0;
     width: 90%;
@@ -169,17 +170,17 @@ input[type="password"]{
 .button:hover{
     background: cadetblue;
 }
-.portafolio{
+.categorias{
     background-image:url(../img/fondo.png);
 
     background: black;
 }
-.galeria-port{
+.galeria-cat{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.imagen-port{
+.imagen-cat{
     width: 24%;
     height: 200px;
     margin-bottom: 10px;
@@ -188,7 +189,7 @@ input[type="password"]{
     cursor: pointer;
     box-shadow: 0 0 6px rgba(0, 0, 0.5)
 }
-.imagen-port > img{
+.imagen-cat > img{
 width:90%;
 height: 90%;
 object-fit: cover;
@@ -214,7 +215,7 @@ display: block;
 .hover-galeria p{
     color: blanchedalmond;
 }
-.imagen-port:hover .hover-galeria{
+.imagen-cat:hover .hover-galeria{
      transform: scale(1);
 }
 .cards{
@@ -399,4 +400,5 @@ align-items: center;
     .titulo-final{
         font-size: 20px;
     }
+    
 }
