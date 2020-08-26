@@ -1,10 +1,9 @@
 
 
 body{
-    margin: 0;
-
     background:black;
 }
+
 .contenedor{
     padding: 60px 0;
     width: 90%;
@@ -63,35 +62,6 @@ nav > a:hover{
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-.contenedor-sobre-nosotros{
-display: flex;
-justify-content: space-evenly;
-}
-
-.imagen-about-us{
-    width: 48%;
-}
-.sobre-nosotros.contenido-textos{
-    width: 48%;
-
-}
-.contenido-textos h3 span{
-    background: yellow;
-    color: black;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: left;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0 0 6px rgba(0, 0, 0.5);
-    margin-right: 5px;
-}
-.contenido-textos p{
-    padding: 0px 0 px 30px 15px;
-font-weight: 300;
-text-align: justify;
 }
 .formulario{
     background-image: url(../img/fondo.png);
@@ -175,7 +145,7 @@ input[type="password"]{
 
     background: black;
 }
-.galeria-cat{
+.cat{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -195,7 +165,7 @@ height: 90%;
 object-fit: cover;
 display: block;
 }
-.hover-galeria{
+.hover-cat{
     position: absolute;
     width: 90%;
     height: 90%;
@@ -208,14 +178,14 @@ display: block;
     align-items:center;
     flex-direction: column;
 }
-.hover-galeria img{
+.hover-cat img{
     width: 50px;
 
 }
-.hover-galeria p{
+.hover-cat p{
     color: blanchedalmond;
 }
-.imagen-cat:hover .hover-galeria{
+.imagen-cat:hover .hover-cat{
      transform: scale(1);
 }
 .cards{
@@ -228,7 +198,7 @@ justify-content: space-evenly;
     background: white;
     display: flex;
     width: 46%;
-    height: 200px;
+    height: 300px;
     align-items: Left;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -243,7 +213,7 @@ justify-content: space-evenly;
 }
 
 .cards .card > .contenido-texto-card{
-    width: 60%;
+    width:60%;
     color: white;
 }
 .cards .card > .contenido-texto-card h4{
@@ -252,26 +222,7 @@ justify-content: space-evenly;
     font-weight: 300;
     padding-top: 5px;
 }
-.about-services{
-    background:black;
-    padding-bottom: 30px;
-}
 
-.servicio-ind{
-    width:28%;
-    text-align:center ;
-
-}
-.servicio-ind img{
-    width:90%;
-}
-.servicio-ind h3{
-    margin:10px 0;
-}
-.servicio-ind p{
-    font-weight: 300;
-text-align: center;
-}
 footer{
     background: black;
     padding: 60px 0 30px 0;
@@ -306,19 +257,7 @@ footer{
     header{
         background-position: center;
     }
-    .contenedor-sobre-nosotros{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .sobre-nosotros .contenido-textos{
-        width: 90%;
-
-    }
-    .imagen-about-us{
-        width: 90%;
-    }
-    .imagen-port{
+    .imagen-cat{
         width: 44%;
     }
     .cards{
@@ -327,24 +266,10 @@ footer{
         align-items: center;
     }
     .cards .card{
-        width:90%;
+        width:55%;
     }
     .cards .card:first-child{
         margin-bottom: 30px;
-    }
-    .servicio-cont{
-        justify-content: center;
-        flex-direction: column;
-    }
-    .servicio-ind{
-        width: 100%;
-        text-align:center;
-    }
-    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
-        margin-bottom: 60px;
-    }
-    .servicio-ind img{
-        width: 90%;
     }
 }
 @media screen and  (max-width:500px){
@@ -355,21 +280,8 @@ footer{
     nav > a{
         margin-right: 5px;
     }
-    .textos-header h1{
-        font-size: 35px;
-    }
-    .textos-header h2{
-        font-size: 20px;
-    }
-    .imagen-about-us{
-        margin-bottom: 60px;
-        width: 99%;
-    }
-    .sobre-nosotros .contenido-textos{
-        width: 95%;
-    }
-    .imagen-port{
-        width: 95%;
+    .imagen-cat{
+        width: 60%;
     }
     .cards .card{
 height: 450px;   
@@ -400,5 +312,4 @@ align-items: center;
     .titulo-final{
         font-size: 20px;
     }
-    
 }
