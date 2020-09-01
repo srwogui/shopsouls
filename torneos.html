@@ -13,39 +13,53 @@
 
 </head>
 <header>
-    <div class="container fluid py-3"></div>
-    <h1>Torneos</h1>
-    <p> <em>Para poder participar en el torneo tienes que cumplir estos requisitos.</p>
-    <div class="container fluid">
-<p>El torneo lo organizamos el último viernes del mes. Es un torneo del videojuego Tekken 7 
-   para los 30 primeros clientes que sean socios y que hayan comprado algún videojuego en la
-    Los dos primeros clientes tendrán una ronda adelantada frente al resto.
-     El torneo será eliminatorio de un combate a 3 rondas.
-    segundo puesto se llevará un videojuego nuevo ya sea pre order o de la tienda. 
-    Y el tercero se llevará un premio de 30E para gastar en la tienda.  </p>    </div></em>
-    <div class="container py-5">
-        <h1>Premios</h1>
-        <div class="row align items-center">
-            <div class="col-sm-4 py-3 text-center requisitos" >Para el primer puesto regalaremos una ediccion especial de tekken 7
-                 y un vale por 100e para gastar en la tienda.</div>
-            <div class="col-sm-4 py-3  text-justifyced requisitos">Para el segundo puesto regalaremos un videojuego nuevo.(El que desees)</div>
-            <div class="col-sm-4 py-3 text-justifyced requisitos">Para el tercer puesto regalaremos un vale de 30e para gastar en la tienda</div>
-            
-        </div>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="iniciosesion.html">Inicia Sesión</a>
+        <a href="torneos.html">Torneo</a>
+        <a href="registro.html">Registrate aquí</a>
+    </nav>
+    <section class="textos-header"></section>
+            <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+                <div class="container-fluid py-5">
+                    <div class="container">
+            <h1 class="display-2"><strong>TORNEOS</h1></strong>
+            <p class="py-4"><em>¿Estás listo para jugar?</p></em>
+        </section>
 </header>
 <body>
-    <div class="container py-5">
-        <h1 class="py-5">Requisitos</h1>
-        <div class="row align items-center ">
-            <div class="col-sm-4 py-3 text-center requisitos" >Haber gastado al menos 59,99e</div>
-            <div class="col-sm-4 py-3  text-justifyced requisitos">Ser mayor de 18 años y en caso de tener como mínimo 16 debes estar acompañado de un adulto.</div>
-            <div class="col-sm-4 py-3 text-justifyced requisitos">No haber ganado el torneo anterior. (Queremos repartir el mayor número de premios a clientes distintos.)</div>    
-        </div>
-        
-        <div class="container fluid text-white py-3">
+    <div class="container my-2">
+        <button class="btn btn-warning" id="toggle1">Información</button>
+        <div class="mt-5 bg-warning text-dark py-5 text-center text-uppercase" id="parrafo1">
+          <p class="text-dark text-center text-justify">El torneo lo organizamos el último viernes del mes. Es un torneo del videojuego Tekken 7 
+            para los 30 primeros clientes que sean socios y que hayan comprado algún videojuego en la
+             Los dos primeros clientes tendrán una ronda adelantada frente al resto.
+              El torneo será eliminatorio de un combate a 3 rondas.
+             segundo puesto se llevará un videojuego nuevo ya sea pre order o de la tienda. 
+             Y el tercero se llevará un premio de 30E para gastar en la tienda.</p></div>
 
+             <button class="btn btn-warning my-2" id="toggle2">Premios</button>
+             <div class="mt-5 bg-warning text-dark py-5 text-center text-uppercase text" id="parrafo2">
+             <p class="text-dark text-center text-justify"> Para el primer puesto regalaremos una ediccion especial de tekken 7<br>
+                y un vale por 100e para gastar en la tienda.<br>
+           Para el segundo puesto regalaremos un videojuego nuevo.(El que desees)<br>
+           Para el tercer puesto regalaremos un vale de 30e para gastar en la tienda
+           Haber gastado al menos 59,99e</p></div>
+      
+           <button class="btn btn-warning my-2" id="toggle3">Requisitos</button>
+           <div class="mt-5 bg-warning text-dark py-5 text-center text-uppercase" id="parrafo3">
+           <p class="text-dark text-center text-justify">Ser mayor de 18 años y en caso de tener como mínimo 16 debes estar acompañado de un adulto.<br>
+            No haber ganado el torneo anterior.<br> (Queremos repartir el mayor número de premios a clientes distintos.)</p>    
+          </div>
+      </div>
             <p>Si los cumples...</p>
             <a title="inscribeteaqui" href="registrotorneo.html"><img src="img/inscribeteaqui.jpg" class="rounded mx-auto d-block" alt=""></a>
         </div>
-</body>
+</div>
+
+
+
+
+        <script src="js/click.js"></script>
+    </body>
 </html>

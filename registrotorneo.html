@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -15,7 +16,7 @@
     <nav>
         <a href="index.html">Inicio</a>
     </nav>
-        <form class="formulario">
+        <form  action="create2.php" class="formulario" method="POST">
             <div class="container">
             <h1>Formulario de inscripción</h1>
           </div>
@@ -23,23 +24,23 @@
              
              <div class="input-contenedor">
               <i class="fab fa-jedi-order icon"></i>
-                 <input type="text" placeholder="Nombre Completo" required>
+                 <input name="Nombre" type="text" placeholder="Nombre Completo" required>
                  </div>
                  
                  <div class="input-contenedor">
                   <i class="fab fa-galactic-republic icon"></i>
-                 <input type="number" placeholder="Número de Socio" required>
+                 <input name="IdSocio" type="number" placeholder="Número de Socio" required>
                  </div>
                 
                  <div class="input-contenedor">
                   <i class="fab fa-galactic-senate icon"></i>
-                 <input type="date" placeholder="Fecha de nacimiento" required>         
+                 <input name="fecha" type="date" placeholder="Fecha de nacimiento" required>         
                  </div>
                  <div class="input-contenedor">
                   <i class="fab fa-old-republic icon"></i>
-                 <input type="text" placeholder="Usuario" required>         
-                 </div>
-                 <input type="submit" value="Regístrate" class="button">          
-                </form>
+                 <input name="Usuario" type="text" placeholder="Usuario" required>         
+                 </div>                
+                  </form>                
+                 <input id="Registro" type="submit" value="Regístrate" class="button">          
 </body>
 </html>

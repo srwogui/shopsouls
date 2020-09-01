@@ -15,7 +15,7 @@
 <body>
   <nav>
     <a href="index.html">Inicio</a>
-    <form class="formulario">
+    <form action="create.php" class="formulario" method="POST">
       <div class="container">
       <h1>Regístrate aquí</h1>
     </div>
@@ -23,43 +23,44 @@
        
        <div class="input-contenedor">
         <i class="fab fa-jedi-order icon"></i>
-           <input type="text" placeholder="Nombre Completo" required>
+           <input type="text" name="nombre" placeholder="Nombre Completo" required>
            </div>
            
            <div class="input-contenedor">
             <i class="fab fa-galactic-republic icon"></i>
-           <input type="text" placeholder="Correo Electronico" required>
+           <input type="text" name="correo" placeholder="Correo Electronico" required>
            </div>
           
            <div class="input-contenedor">
             <i class="fab fa-galactic-senate icon"></i>
-           <input type="password" placeholder="Contraseña" required>         
+           <input type="password" name="contraseña" placeholder="Contraseña" required>         
            </div>
            <div class="input-contenedor">
             <i class="fab fa-old-republic icon"></i>
-           <input type="text" placeholder="Usuario" required>         
+           <input type="text" name="usuario" placeholder="Usuario" required>         
            </div>
            <div class="input-contenedor ">
             <i class="fab fa-jedi-order icon"></i>
     
-           <input type="text" placeholder="Dirección" required>         
+           <input type="text" name="direccion" placeholder="Dirección" required>         
            </div>
            <div class="input-contenedor">
             <i class="fab fa-galactic-republic icon"></i>
     
-           <input type="text" placeholder="Ciudad" required>         
+           <input type="text" name="ciudad" placeholder="Ciudad" required>         
            </div>
            <div class="input-contenedor">
             <i class="fab fa-galactic-senate icon"></i>
     
-           <input type="number" placeholder="Código Postal" required>
+           <input type="number" name="postal" placeholder="Código Postal" required>
            </div>
            <div class="input-contenedor">
             <i class="fab fa-old-republic icon"></i>
     
-           <input type="number" placeholder="Teléfono" required>
+           <input type="number" name="telefono" placeholder="Teléfono" required>
            </div>
-           <input type="submit" value="Registrate" class="button" onclick="document.write('Ha sido registrado con éxito')">
+       </div>
+           <input type="submit" value="Registrate" class="button">
            <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
            <p>¿Ya tienes una cuenta?<a class="link" href="iniciosesion.html">Iniciar Sesion</a></p>
            
