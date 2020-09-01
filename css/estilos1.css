@@ -164,6 +164,26 @@ p{
 .link:hover{
      color: black;
 }
+
+.form_search{
+display: flex;
+float: left;
+background: initial;
+padding: 10px;
+border-radius: 10px;
+
+}
+.form_search .btn_search{
+color:red;
+background: blue;
+padding: 0 20px;
+border: 0;
+cursor: pointer;
+margin-right: 10px;
+
+}
+ 
+
 @media(min-width:768px)
 {
     .formulario{

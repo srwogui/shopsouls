@@ -3,7 +3,6 @@
 body{
     background:black;
 }
-
 .contenedor{
     padding: 60px 0;
     width: 90%;
@@ -118,6 +117,7 @@ input[type="password"]{
 .requisitos{
     background: yellow;
 }
+
 @media(min-width:768px)
 {
     .formulario{
